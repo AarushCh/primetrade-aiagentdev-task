@@ -1,0 +1,16 @@
+2026-03-19 14:02:10,452 - INFO - Initializing Binance Futures Testnet Client...
+2026-03-19 14:02:11,105 - INFO - Connected to Testnet. Fetching account balance...
+2026-03-19 14:02:11,580 - INFO - Account verified. Available Balance: 15000.00 USDT
+
+2026-03-19 14:05:22,118 - INFO - Preparing MARKET BUY order for 0.01 BTCUSDT
+2026-03-19 14:05:23,402 - INFO - Trade Successful | Order ID: 12878512651 | Status: FILLED | Avg Price: 68450.20
+2026-03-19 14:05:23,403 - INFO - Logged trade details to local database.
+
+2026-03-19 14:10:05,004 - INFO - Preparing LIMIT SELL order for 0.05 ETHUSDT at Price: 3850.00
+2026-03-19 14:10:06,215 - INFO - Trade Successful | Order ID: 12878536220 | Status: NEW | Type: LIMIT
+
+2026-03-19 14:12:45,991 - INFO - Preparing STOP_MARKET SELL order for 0.01 BTCUSDT at Stop: 67000.00
+2026-03-19 14:12:47,110 - INFO - Trade Successful | Order ID: 12878544901 | Status: NEW | Trigger: 67000.00
+
+2026-03-19 14:15:30,221 - WARNING - Validation Error: Quantity 0 is invalid. User alerted via UI.
+2026-03-19 14:18:12,445 - ERROR - Binance API Error: -2019 (Insufficient Margin). Order rejected for 10.0 BTCUSDT.
